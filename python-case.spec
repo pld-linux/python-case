@@ -18,7 +18,7 @@ Source0:	https://files.pythonhosted.org/packages/source/c/case/case-%{version}.t
 URL:		https://pypi.org/project/case/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.6
-BuildRequires:	python-setuptools >= 20.6.7
+BuildRequires:	python-setuptools >= 1:20.6.7
 %if %{with tests}
 BuildRequires:	python-mock >= 2.0
 BuildRequires:	python-nose >= 1.3.7
@@ -28,7 +28,7 @@ BuildRequires:	python-six
 %endif
 %if %{with python3}
 BuildRequires:	python3-modules >= 1:3.3
-BuildRequires:	python3-setuptools >= 20.6.7
+BuildRequires:	python3-setuptools >= 1:20.6.7
 %if %{with tests}
 BuildRequires:	python3-nose >= 1.3.7
 BuildRequires:	python3-pytest
