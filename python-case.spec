@@ -9,7 +9,7 @@ Summary:	Python unittest utilities
 Summary(pl.UTF-8):	Pythonowe narzędzia do testów jednostkowych
 Name:		python-case
 Version:	1.5.3
-Release:	6
+Release:	7
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/case/
